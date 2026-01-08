@@ -57,7 +57,7 @@ void loop() {
 
 ## 📚 ข้อมูลเพิ่มเติม
 สามารถอ่านรายละเอียดคำสั่งและเทคนิคการใช้งานทั้งหมดได้ที่:
-👉 **[AsyncConsole Documentation (README.md)](file:///d:/esp32/esp32-logger/lib/AsyncConsole/README.md)**
+👉 **[AsyncConsole Documentation (README.md)](https://github.com/noobtohero/AsyncConsole/blob/master/lib/AsyncConsole/README.md)**
 
 ---
 
