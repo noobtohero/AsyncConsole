@@ -12,8 +12,6 @@
  * - คุณสามารถเพิ่ม #define DEBUG_MODE ลงใน main.cpp หรือ platformio.ini ได้
  */
 
-#ifdef DEBUG_MODE
-
 // --- Configure Colors Here ---
 #define CONSOLE_COLOR_DEBUG "\033[0;36m"    // Cyan
 #define CONSOLE_COLOR_INFO "\033[0;32m"     // Green
@@ -54,6 +52,8 @@ private:
   static const char *_levelToString(LogLevel_t level);
   static const char *_levelToColor(LogLevel_t level);
 };
+
+#ifdef DEBUG_MODE
 
 // Macros สำหรับการใช้งานที่ง่ายและ plug & play
 #define CONSOLE_INIT(...) AsyncConsole::begin(__VA_ARGS__)
