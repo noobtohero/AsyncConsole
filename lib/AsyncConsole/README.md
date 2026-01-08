@@ -66,7 +66,7 @@ void loop() {
 คุณสามารถเปลี่ยนสีของแต่ละระดับได้โดยตรงในไฟล์ `AsyncConsole.h`:
 
 ```cpp
-// d:\esp32\esp32-logger\lib\ESP32Logger\ESP32Logger.h
+// d:\esp32\esp32-logger\lib\AsyncConsole\AsyncConsole.h
 #define CONSOLE_COLOR_DEBUG    "\033[0;36m" 
 #define CONSOLE_COLOR_INFO     "\033[0;32m" 
 ...
