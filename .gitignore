@@ -1,0 +1,10 @@
+.pio
+.vscode
+.gcc-flags.json
+*.lib
+*.a
+*.o
+*.pyc
+.DS_Store
+node_modules
+.env
