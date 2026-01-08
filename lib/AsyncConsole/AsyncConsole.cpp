@@ -1,8 +1,6 @@
 #include "AsyncConsole.h"
 #include <stdarg.h>
 
-#ifdef DEBUG_MODE
-
 QueueHandle_t AsyncConsole::_logQueue = NULL;
 bool AsyncConsole::_useColor = true;
 Stream *AsyncConsole::_serial = &Serial;
@@ -163,5 +161,3 @@ const char *AsyncConsole::_levelToColor(LogLevel_t level) {
     return "";
   }
 }
-
-#endif // DEBUG_MODE
